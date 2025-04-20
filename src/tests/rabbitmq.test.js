@@ -1,6 +1,6 @@
 'use strict';
 
-const { connectToRabbitMQForTest } = require('../dbs/init.rabitMQ');
+const { connectToRabbitMQForTest } = require('../dbs/init.rabbitMQ');
 
 describe('RabbitMQ Connection', () => {
   it('should connect to successful RabbitMQ', async () => {
